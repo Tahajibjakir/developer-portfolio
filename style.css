@@ -2,6 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
+/*section1---------*/
 h1{
     font-size: 50px;
     color: aliceblue;
@@ -18,6 +19,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 20px;
 }
 .half-width{
    width: 50%;
@@ -47,4 +49,40 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+/*section2-------*/
+.dream-big{
+    display: flex;
+    background-image: url(showOff/jack1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dream-big img{
+
+    margin-top: 50px;
+    
+}
+.dream-big .half-width{
+    padding-right: 100px;
+    
+    margin-bottom: 180px;
+    
+}
+.dream-big h2{
+    color:white ;
+}
+.dream-big #dream-big{
+    padding-top: 30px;
+}
+.dream-big .link-cv{
+    text-decoration: none;
+    font-weight: 50;
+    color: white;
+    background-color: green;
+    border: 2px;
+    border-radius: 20%;
+    padding: 10px 30px;
+
 }
