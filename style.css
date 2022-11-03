@@ -3,21 +3,21 @@ body{
     margin: 0px;
 }
 /*section1---------*/
-h1{
+.top-banner h1{
     font-size: 50px;
     color: aliceblue;
 }
 span{
     color: forestgreen;
 }
-h3{
+.top-banner h3{
     color: aliceblue;
 }
 p{
     color: aliceblue;
     margin-bottom: 40px;
 }
-section{
+.top-banner{
     display: flex;
     margin-bottom: 20px;
 }
@@ -51,6 +51,10 @@ section{
     
 }
 
+
+
+
+
 /*section2-------*/
 .dream-big{
     display: flex;
@@ -70,8 +74,13 @@ section{
     margin-bottom: 180px;
     
 }
+.dream-big h1{
+    color: aliceblue;
+    font-size: 50px;
+}
 .dream-big h2{
     color:white ;
+    font-size: 40px;
 }
 .dream-big #dream-big{
     padding-top: 30px;
@@ -85,4 +94,80 @@ section{
     border-radius: 20%;
     padding: 10px 30px;
 
+}
+
+
+
+/*section3-------*/
+.experience{
+    background-image: url(showOff/jack1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+
+}
+
+.experience h1{
+    font-size: 50px;
+    padding-left: 500px;
+    color: aliceblue;
+}
+.journey{
+    display: flex;
+
+}
+.experience .now{
+    padding-left: 50px;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 225px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-color: brown;
+    
+}
+.experience .now h1{
+    padding-left: 10px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.experience .now h3{
+    
+    color: yellow;
+}
+.experience p{
+    margin-right: 20px;
+
+    
+}
+
+.experience .before{
+    padding-left: 50px;
+    box-shadow: 10px 10px 10px gray;
+    margin-bottom: 225px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-color: brown;
+}
+.experience .before h1{
+    padding-left: 10px;
+    font-size: 30px;
+    color: aliceblue;  
+}
+.experience .before h3{
+    
+    color: yellow;
+}
+
+
+footer p{
+    text-align: center;
+    color: black;
 }
